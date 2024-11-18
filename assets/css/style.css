@@ -108,12 +108,19 @@ html,body{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
 }
 
+/* Apply sticky to navbar directly */
 nav.navbar.bootsnav {
-    position: sticky;
+    position: sticky;  /* Apply sticky */
     top: 0;
+    z-index: 9999;  /* Ensure it stays above other content */
     background-color: #fff;
-    border-bottom: transparent;
-    box-shadow: 0 3px 15px rgba(0, 0, 0, .2); /* Optional: Shadow effect */
+    box-shadow: 0 3px 15px rgba(0, 0, 0, .2);  /* Optional: Shadow effect */
+}
+
+/* For when navbar is sticky */
+nav.navbar.bootsnav.sticky-wrapper.is-sticky {
+    background-color: #fff; /* Ensure background stays white */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
 }
 
 /*.navbar-brand*/
