@@ -296,7 +296,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     top: 0;
     left: 0;
     width: 109%;
-    height: 100%;
+    height: auto;
     background: rgba(31, 44, 108, .3);
 }
 
