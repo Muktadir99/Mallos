@@ -176,7 +176,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover {
     border-bottom: 2px solid #3D9970; /* Adds an underline on hover */
     color: #3D9970; /* Change text color */
     transition: 0.3s ease; /* Smooth transition */
-},
+}
 nav.navbar.bootsnav ul.nav > li > a:focus,
 nav.navbar.bootsnav ul.nav > li.active > a {
     color: #3D9970;
