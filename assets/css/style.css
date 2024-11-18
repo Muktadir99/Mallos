@@ -190,6 +190,52 @@ nav.navbar.bootsnav ul.nav > li.active > a {
     max-height: 300px;
 }
 
+/* Apply sticky only to navbar */
+nav.navbar.bootsnav {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: #fff;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, .2);
+}
+
+/* When navbar is sticky */
+nav.navbar.bootsnav.sticky-wrapper.is-sticky {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Fixed typo for navbar brand */
+.navbar-header a.navbar-brand, .navbar-header a.navbar-brand:hover, .navbar-header a.navbar-brand:focus {
+    display: inline-block;
+    color: #3D9970;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 33px 0px 57px;
+    text-transform: uppercase;
+}
+
+/* Styling for navbar items */
+nav.navbar.bootsnav ul.nav > li > a {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 35px 20px;
+    transition: 0.3s linear;
+}
+
+nav.navbar.bootsnav ul.nav > li > a:hover,
+nav.navbar.bootsnav ul.nav > li > a:focus,
+nav.navbar.bootsnav ul.nav > li.active > a {
+    color: #3D9970;
+}
+
+/* Menu UI design scrollbar styling */
+.menu-ui-design {
+    overflow-y: scroll;
+    max-height: 300px;
+}
+
 .menu-ui-design::-webkit-scrollbar {
     width: 5px;
 }
@@ -202,7 +248,7 @@ nav.navbar.bootsnav ul.nav > li.active > a {
     background-color: #3D9970;
 }
 
-/* Navbar toggle button styles */
+/* Ensure navbar toggle button is styled correctly */
 nav.navbar.bootsnav .navbar-toggle {
     position: relative;
     background-color: transparent;
@@ -228,6 +274,8 @@ nav.navbar.bootsnav .navbar-toggle i {
         display: block !important;
     }
 }
+
+
 
 
 /*-------------------------------------
