@@ -282,30 +282,20 @@ nav.navbar.bootsnav .navbar-toggle i {
     flex-wrap: wrap; /* Ensures the layout is responsive */
 }
 
-.single-about-img {
-    position: relative;
-    box-shadow: 0 5px 20px rgba(14, 25, 80, .30);
-    max-width: 500px;
-    width: 100%;
-    height: auto;
-}
-
+/*.single-about-img */
+.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
 .single-about-img:before {
-    position: absolute;
+    position:  absolute;
     content: " ";
     top: 0;
-    left: 0;
+    left:  0;
     width: 109%;
-    height: 100%;
-    background: rgba(31, 44, 108, .3);
+    height:  100%;
+    background: rgba(31,44,108,.3);
 }
-
 .single-about-img img {
-    width: 100%; /* Ensures the image fits within its container */
-    height: auto; /* Maintains aspect ratio */
-    display: block; /* Prevents any extra space below the image */
-}
-/* Optional: Adjust layout for the container holding image and text */
+    max-width: 500px;
+    height: 468px;
 .single-about-container {
     display: flex;
     justify-content: space-between;
