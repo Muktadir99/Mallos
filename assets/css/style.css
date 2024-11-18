@@ -165,9 +165,10 @@ nav.navbar.bootsnav.sticky-wrapper.is-sticky {
 
 /* Styling for navbar items */
 nav.navbar.bootsnav ul.nav > li > a {
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
+/* Navigation link styles */
+nav.navbar.bootsnav ul.nav > li > a {
+    font-size: 16px;
+    font-weight: 400;
     padding: 15px 20px;
     transition: 0.3s linear;
 }
@@ -177,6 +178,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover {
     color: #3D9970; /* Change text color */
     transition: 0.3s ease; /* Smooth transition */
 }
+
 nav.navbar.bootsnav ul.nav > li > a:focus,
 nav.navbar.bootsnav ul.nav > li.active > a {
     color: #3D9970;
@@ -200,7 +202,7 @@ nav.navbar.bootsnav ul.nav > li.active > a {
     background-color: #3D9970;
 }
 
-/* Ensure navbar toggle button is styled correctly */
+/* Navbar toggle button styles */
 nav.navbar.bootsnav .navbar-toggle {
     position: relative;
     background-color: transparent;
