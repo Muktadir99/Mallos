@@ -274,43 +274,20 @@ nav.navbar.bootsnav .navbar-toggle i {
 .single-about-add-info p {font-weight:  300;border:  0;padding: 0;margin-top: 3px;}
 /*.single-about-txt*/
 
-.single-about-container {
-    display: flex;
-    align-items: center; /* Vertically centers the content */
-    justify-content: flex-start; /* Aligns the content to the left */
-    gap: 20px; /* Adds space between image and text */
-    flex-wrap: wrap; /* Ensures the layout is responsive */
-}
-
-.single-about-img {
-    position: relative;
-    box-shadow: 0 5px 20px rgba(14, 25, 80, .30);
-    max-width: 500px;
-    width: 100%;
-    height: auto;
-}
-
+/*.single-about-img */
+.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
 .single-about-img:before {
-    position: absolute;
+    position:  absolute;
     content: " ";
     top: 0;
-    left: 0;
+    left:  0;
     width: 109%;
-    height: auto;
-    background: rgba(31, 44, 108, .3);
+    height:  100%;
+    background: rgba(31,44,108,.3);
 }
-
 .single-about-img img {
-    width: 100%; /* Ensures the image fits within its container */
-    height: auto; /* Maintains aspect ratio */
-    display: block; /* Prevents any extra space below the image */
-}
-/* Optional: Adjust layout for the container holding image and text */
-.single-about-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    max-width: 500px;
+    height: 468px;
 }
 .about-list-icon{
     display: flex;
@@ -350,6 +327,8 @@ nav.navbar.bootsnav .navbar-toggle i {
 /*.ab-list-icon */
 
 /*.single-about-img */
+
+
 
 /*-------------------------------------
         5.  Education
